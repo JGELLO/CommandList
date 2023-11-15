@@ -83,5 +83,3 @@ Common commands for Ubuntu Server:
 - Install a package: `sudo apt install (name of install package)`
 - Reboot: `sudo reboot`
 - Check network interfaces: `ifconfig`
-
-Feel free to customize this guide based on your specific development environment and tools!
