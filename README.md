@@ -4,17 +4,17 @@
 
 Ensure that you have the following tools installed and check their versions:
 
-- Node.js: `node -v`
-- npm: `npm -v`
-- Firebase: `firebase --version`
-- Composer: `composer --version`
-- PHP: `php --version`
-- Conda: `conda --version`
-- Python: `python --version`
+- **Node.js**: `node -v`
+- **npm**: `npm -v`
+- **Firebase**: `firebase --version`
+- **Composer**: `composer --version`
+- **PHP**: `php --version`
+- **Conda**: `conda --version`
+- **Python**: `python -v`
 
 ## Anaconda Commands
 
-Useful Anaconda commands for managing environments:
+Manage Python environments with Anaconda:
 
 - Initialize Anaconda: `conda init`
 - Activate an environment: `conda activate (name of environment)`
@@ -24,7 +24,7 @@ Useful Anaconda commands for managing environments:
 
 ## Visual Studio Code Commands
 
-Handy Visual Studio Code keyboard shortcuts:
+Enhance your Visual Studio Code workflow:
 
 - Wrap with abbreviation: `Ctrl + Shift + P`
 - Comment lines: `Ctrl + L`
@@ -36,6 +36,7 @@ Useful npm commands for React development:
 - Start local server: `npm start`
 - Install React Router DOM: `npm install react-router-dom`
 - Install React Icons: `npm install react-icons`
+- Install React Slick Carousel: `npm install react-slick slick-carousel`
 
 ## npm GitHub Pages Deployment
 
@@ -44,9 +45,17 @@ Commands for deploying to GitHub Pages:
 - Install gh-pages: `npm install gh-pages --save-dev` (run before deploying remotely)
 - Deploy updates: `npm run deploy -- -m "minor updates"`
 
+If there is an error in Babel, run the following commands:
+
+```bash
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+rm -rf node_modules
+npm install
+```
+
 ## Sanity.io
 
-Commands for setting up a Sanity.io project:
+Set up a Sanity.io project:
 
 - Create a new Sanity.io project: `npm create sanity@latest -- --template get-started --project 3x7fujsa --dataset production --provider google`
 - Run the development server: `npm run dev`
